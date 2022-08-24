@@ -1,11 +1,11 @@
 let i = 0;
 let img = [
-	"horizon.jpg",
-	"spiderman.jpg",
-	"ghost.jpg",
-	"god_of_war.jpg",
-	"acv.jpg",
-	"the_last_of_us.jpg",
+	"../Images/horizon.jpg",
+	"../Images/spiderman.jpg",
+	"../Images/ghost.jpg",
+	"../Images/god_of_war.jpg",
+	"../Images/acv.jpg",
+	"../Images/the_last_of_us.jpg",
 ];
 
 function slideImg() {
