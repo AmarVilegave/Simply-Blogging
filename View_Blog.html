@@ -5,8 +5,94 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Frontline Gaming</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
 	</head>
 	<body>
-		View Blog
+		<!--Basic Navigation Bar to navigate through pages-->
+
+		<nav class="navbar navbar-expand-lg bg-black navbar-dark py-3 fixed-top">
+			<div class="container">
+				<a href="#" class="navbar-brand">Frontline Gaming</a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navmenu"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navmenu">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a href="Home.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="view_blog.html" class="nav-link text-danger"
+								>View Blog</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--Detailed view of a blog-->
+
+		<section class="p-5 bg-dark text-dark" style="margin-top: 70px">
+			<div class="container">
+				<div class="card mb-3 pt-5 px-5" id="container-1">
+					<img src="./Images/spider.jpg" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">
+							Spider-Man Remastered Offers More Evidence of PSN Account Linking
+							on PC
+						</h5>
+						<p class="card-text">
+							Last week Sony launched a new section of the PlayStation website
+							dedicated to PlayStation games on PC, and it seemed to hint toward
+							future PSN account integration for PC players. More evidence for
+							this has now seemingly been found by data miners who have found
+							mentions of PSN account integration while trawling the PC files of
+							Marvel’s Spider-Man Remastered.
+						</p>
+						<p class="card-text">
+							Marvel’s Spider-Man Remastered on PC includes references to
+							PlayStation Network account integration within its files and these
+							seem to suggest Sony is still thinking about integrating their
+							first-party PC games with PSN in the future. As spotted by several
+							dataminers (thanks VGC), the game’s files contain numerous
+							mentions of “PSNAccountLinked” and “PSNLinkingEntitlements”,
+							suggesting Sony may even be considering offering in-game bonuses
+							for those that have linked Spider-Man to a PlayStation Network
+							account. One of those bonuses was “LevelCapExtras”, which sounds
+							like extra bonuses when players reach level 50.
+						</p>
+						<p class="card-text">
+							In other news, the Fortnite x Dragon Ball crossover trailer has
+							leaked and confirms Fusion Dance. Elsewhere, Disney and Marvel
+							have announced a games showcase for next month and confirmed games
+							include Marvel’s Midnight Suns and Disney Dreamlight Valley.
+						</p>
+						<p class="card-text">
+							<small class="text-muted"
+								>By <span class="text-primary">CAMERON TEAGUE </span> on July
+								27, 2022 at 09:00 AM</small
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
